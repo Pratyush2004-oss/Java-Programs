@@ -1,3 +1,4 @@
+
 class MyThr extends Thread{
     public MyThr(){
         super("MyThread");

@@ -1,3 +1,4 @@
+
 class A extends Thread{
     public void run(){
         String n = Thread.currentThread().getName();
