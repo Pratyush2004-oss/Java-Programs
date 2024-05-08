@@ -24,7 +24,7 @@ class Thread2 extends Thread {
 
 }
 
-public class Multi_Threading {
+public class Extended_Multi_Threading {
     public static void main(String[] args) {
         // creating objects of threads
         Thread1 t1 = new Thread1();
