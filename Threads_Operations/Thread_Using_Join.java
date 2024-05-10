@@ -1,5 +1,4 @@
 
-import java.util.*;
 
 class A extends Thread {
     public void run() {

@@ -1,6 +1,4 @@
 
-import java.util.*;
-
 class A extends Thread {
     public void run() {
         String n = Thread.currentThread().getName();
@@ -23,9 +21,9 @@ public class Thread_Using_Suspend_And_Resume {
 
         t1.start();
         t2.start();
-        t2.suspend();       // These inbuilt methods of the Thread are now depreacted and marked for removal from the JDK  
+        // t2.suspend();       // These inbuilt methods of the Thread are now depreacted and marked for removal from the JDK  
         t3.start();
-        t2.resume();        // These inbuilt methods of the Thread are now depreacted and marked for removal from the JDK  
+        // t2.resume();        // These inbuilt methods of the Thread are now depreacted and marked for removal from the JDK  
 
     }
 }
