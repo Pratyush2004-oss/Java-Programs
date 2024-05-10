@@ -25,6 +25,7 @@ class SamSung implements Smart_TV_Remote{
 }
 
 public class Interface {
+    @SuppressWarnings("static-access")
     public static void main(String[] args) {
         Smart_TV_Remote S1 = new SamSung();
         System.out.println(S1.val);

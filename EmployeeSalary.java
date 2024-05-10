@@ -21,6 +21,7 @@ class Employee{
 }
 
 public class EmployeeSalary {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter Name : ");

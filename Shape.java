@@ -1,5 +1,5 @@
 import java.util.*;
-
+@SuppressWarnings("resource")
 class Circle{
     double radius, area;
     double SetRadius(){
@@ -15,6 +15,7 @@ class Circle{
     }
 }
 
+@SuppressWarnings("resource")
 class Cylinder extends Circle{
     private double height,volume;
     double getHeight(){

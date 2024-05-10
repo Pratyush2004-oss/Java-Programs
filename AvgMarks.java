@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class AvgMarks {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter the number of Students appeared for Examination : ");

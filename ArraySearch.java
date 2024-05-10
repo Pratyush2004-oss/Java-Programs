@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class ArraySearch {
-    
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int size = scan.nextInt();

@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Marksheet {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         float sub1, sub2, sub3;
         Scanner scan = new Scanner(System.in);

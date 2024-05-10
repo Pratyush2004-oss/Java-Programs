@@ -1,12 +1,13 @@
 import java.util.Scanner;
 
 public class Factorial_Recurssion {
-
+    
     static int fact(int n){
         if (n == 0) return 1;
         else return n * fact(n-1);
     } 
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int num = scan.nextInt();

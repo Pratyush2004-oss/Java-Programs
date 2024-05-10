@@ -9,6 +9,7 @@ public class SumOfTable {
         }
         return sum;
     }
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter the Number whose sum of table is to be printed : ");

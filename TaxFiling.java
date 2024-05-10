@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class TaxFiling {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         // Create a new instance of the TaxFiling class.
         double taxpaid;

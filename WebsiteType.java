@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class WebsiteType {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter the Website URL : ");
