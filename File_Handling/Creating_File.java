@@ -20,5 +20,4 @@ public class Creating_File {
             System.out.println("Error creating the file.");
         }
     }
-    
 }
