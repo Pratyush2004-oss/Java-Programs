@@ -21,7 +21,7 @@ class Derived extends Base{
 }
 
 public class SuperKeyword {
-    @SuppressWarnings("resource")
+    @SuppressWarnings({ "resource", "unused" })
     public static void main(String[] args) {
         Derived d = new Derived();
     }

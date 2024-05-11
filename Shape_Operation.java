@@ -18,7 +18,7 @@ class Rectangle{
 }
 
 public class Shape_Operation {
-    @SuppressWarnings("resource")
+    @SuppressWarnings({ "resource", "unused" })
     public static void main(String[] args) {
         // Creating objects of different classes
         Square sq = new Square(5);
