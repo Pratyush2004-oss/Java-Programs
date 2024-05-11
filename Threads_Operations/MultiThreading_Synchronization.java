@@ -36,8 +36,8 @@ class Bank extends Thread {
 public class MultiThreading_Synchronization {       //Bank class will have 1 lock
     public static void main(String[] args) {
 
-        Bank obj = new Bank(5000);      //obj has 1 lock
-        Bank obj1 = new Bank(4000);     //obj1 has a different lock, but same class so it can access the shared resource
+        Bank obj = new Bank(4000);      //obj has 1 lock
+        Bank obj1 = new Bank(3000);     //obj1 has a different lock, but same class so it can access the shared resource
 
         Thread t1 = new Thread(obj);
         Thread t2 = new Thread(obj);
