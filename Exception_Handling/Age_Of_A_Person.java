@@ -11,6 +11,7 @@ class MyAgeException extends Exception{
     }
 }
 public class Age_Of_A_Person {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
