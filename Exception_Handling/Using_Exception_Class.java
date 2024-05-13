@@ -15,6 +15,7 @@ class MyException extends Exception{
 }
 
 public class Using_Exception_Class {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
@@ -28,7 +29,6 @@ public class Using_Exception_Class {
                 e.printStackTrace();
             }
         }
-
         
     }
 }

@@ -3,6 +3,7 @@ package Exception_Handling;
 import java.util.Scanner;
 
 public class Nested_Exception_Handling_Under_Array {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         int [] marks = new int[6];
         marks[0] = 89;
