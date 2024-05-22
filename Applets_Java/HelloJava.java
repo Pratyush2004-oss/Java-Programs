@@ -1,4 +1,4 @@
-package Applets_Java;
+// package Applets_Java;
 
 import java.applet.*;
 import java.awt.*;
