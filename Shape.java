@@ -4,7 +4,7 @@ class Circle{
     double radius, area;
     double SetRadius(){
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the value of radius : ");
+        System.out.print("Enter the value of radius : ");
         this.radius = sc.nextDouble();
         return radius;
     }

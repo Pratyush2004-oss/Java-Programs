@@ -7,7 +7,7 @@ class Base{
     }
     Base(int a, int b){
         System.out.println("I am an overloaded constructor of Base class with parameters : " + a + " and " + b);
-    }
+    }  
 }
 
 class Derived extends Base{
@@ -19,7 +19,7 @@ class Derived extends Base{
         System.out.println("I am a constructor of the derived class ");
     }
 }
-
+ 
 public class SuperKeyword {
     @SuppressWarnings({ "resource", "unused" })
     public static void main(String[] args) {
