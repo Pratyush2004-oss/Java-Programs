@@ -11,7 +11,7 @@ class A{
 
 }
 
-public class PolyMorpjism {
+public class PolyMorphism {
     public static void main(String[] args) {
         A obj = new A();
         // calling the method without any parameter
