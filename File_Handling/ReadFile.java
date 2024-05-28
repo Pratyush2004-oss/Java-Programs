@@ -1,9 +1,8 @@
 package File_Handling;
 
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.Scanner;
-
+import java.io.*;
+import java.util.*;
+  
 public class ReadFile {
     @SuppressWarnings("resource")
     public static void main(String[] args) {

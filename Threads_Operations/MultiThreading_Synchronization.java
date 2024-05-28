@@ -25,7 +25,7 @@ class Bank extends Thread {
     public void run(){
         try {
             Withdraw();
-            Thread.sleep(1500);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             // TODO: handle exception
         }
@@ -44,8 +44,6 @@ public class MultiThreading_Synchronization {       //Bank class will have 1 loc
         Thread t3 = new Thread(obj1);
         Thread t4 = new Thread(obj1);
         
-        
-
         t1.setName("Dean");
         t2.setName("John");
         t3.setName("Becky");

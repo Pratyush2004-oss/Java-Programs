@@ -29,6 +29,8 @@ public class Threads_Using_Yield {
 
         t1.start();
         t2.start();
+        t3.start();
+
         
         
         
