@@ -11,9 +11,9 @@ public class AgeCalculatorExample1 {
     }
     public static void main(String[] args) {
         System.out.print("Enter date of birth in YYYY-MM-DD format: ");
-        Scanner scanner = new Scanner(System.in);
-        String input = scanner.nextLine();
-        scanner.close();
+        Scanner scan = new Scanner(System.in);
+        String input = scan.nextLine();
+        scan.close();
 
         LocalDate dob = LocalDate.parse(input);
         int age = calculateAge(dob);

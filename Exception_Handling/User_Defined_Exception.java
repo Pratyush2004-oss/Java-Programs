@@ -20,6 +20,7 @@ public class User_Defined_Exception {
             // TODO: handle exception
             // e.printStackTrace();
         }
+        scan.close();
     }
 
     public static void vote(int age) throws InvalidAgeException {

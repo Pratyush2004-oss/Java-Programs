@@ -25,7 +25,7 @@ public class Prime_Number_between_Range {
         int a, b;
         System.out.println("********  Enter the range from where you want to print Prime Numbers  *********");
         Scanner sc = new Scanner(System.in);
-        System.out.print("Start : ");
+        System.out.print("\nStart : ");
         a = sc.nextInt();
         System.out.print("End : ");
         b = sc.nextInt();
