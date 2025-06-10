@@ -10,7 +10,7 @@ public class IPAddressFinder {
 
             // Get all Ip Address associated with the localhost
             InetAddress[] allLocalAddresses = InetAddress.getAllByName(localhost.getCanonicalHostName());
-            System.out.println("All IP Addresses associated with Localhost :");
+            System.out.println("All IP Addresses associated with Localhost : \n");
 
             for (InetAddress address : allLocalAddresses) {
                 System.out.println(address.getHostAddress());
